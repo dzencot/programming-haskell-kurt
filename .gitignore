@@ -1,9 +1,9 @@
 dist
 cabal-dev
-*.o
-*.hi
-*.chi
-*.chs.h
+**/*.o
+**/*.hi
+**/*.chi
+**/*.chs.h
 .virtualenv
 .hpc
 .hsenv
@@ -13,4 +13,4 @@ cabal.config
 *.prof
 *.hp
 *.aux
-./solution
+solution
