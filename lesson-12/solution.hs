@@ -95,6 +95,9 @@ patientSummary patient = "******************************************************
                          "******************************************************\n"
 main = do
   putStr (patientSummary jackieSmith)
+  putStr "\n"
+  putStr (patientSummary janeESmith)
+  putStr "\n"
   putStr (show (canDonateToPatient jackieSmith janeESmith))
   putStr "\n"
   putStr (show (canDonateToPatient janeESmith jackieSmith))
